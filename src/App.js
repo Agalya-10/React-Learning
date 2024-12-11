@@ -6,6 +6,8 @@ import Login from './Component/login';
 import Button from './Component/Button';
 import Props from './Component/Props';
 import Child from './Component/Child';
+import Events from './Component/Events';
+import Conditionals from './Component/Conditionals';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
     <Route path='/changeButton' element={<Button/>}/>
     <Route path='/changeProps' element={<Props/>}/>
     <Route path='/changeChild' element={<Child/>}/>
+    <Route path='/changeEvent' element={<Events/>}/>
+    <Route path='/changeConditionals' element={<Conditionals/>}/>
+
+
   </Routes>
   </BrowserRouter>
   </>

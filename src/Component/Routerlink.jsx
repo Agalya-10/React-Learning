@@ -5,20 +5,16 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 
 function Routerlink() {
-    function Home() {
-        return <h1>Welcome to Home Page</h1>;
-      }
-      function About() {
-        return <h1>About Us Page</h1>;
-      }
-      function Contact() {
-        return <h1>Contact Page</h1>;
-      }
+
   return (
    <div>
-    {Home}
-    {About}
-    {Contact}
+ <h1>Agalya</h1>
+          <ul>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+       
    </div>
   );
 }

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Error from './Component/Error';
 import Form from './Component/Form';
 import Table from './Component/Table';
 import Login from './Component/login';
@@ -11,19 +12,18 @@ import Conditionals from './Component/Conditionals';
 import List from './Component/List';
 import Form1 from './Component/Form1';
 import Routerlink from './Component/Routerlink';
-
+import Home from './Component/Home';
+import About from './Component/About';
+import Contact from './Component/Contact';
+import DynamicRoute from './Component/DynamicRoute';
+ 
 function App() {
   return (
   <>
   <BrowserRouter>
-  <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
+ {/* <Routerlink/> */}
   <Routes>
+    <Route path='*' element={<Error/>}/> 
     <Route path='/createForm' element={<Form/>}/>
     <Route path='/createTable' element={<Table/>}/>
     <Route path='/createBox' element={<Login/>}/>
@@ -35,9 +35,19 @@ function App() {
     <Route path='/changeList' element={<List/>}/>
     <Route path='/changeform1' element={<Form1/>}/>
     <Route path='/changerouter' element={<Routerlink/>}/>
-    <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/contact" element={<Contact />} />
+    <Route path='/home' element={<Home/>}/>
+    <Route path='/about' element={<About/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/dynamicroute/:Name' element={<DynamicRoute/>}/>
+
+
+
+
+    
+
+
+
+   
 
     
 

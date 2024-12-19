@@ -16,6 +16,8 @@ import Home from './Component/Home';
 import About from './Component/About';
 import Contact from './Component/Contact';
 import DynamicRoute from './Component/DynamicRoute';
+import Memo from './Component/Memo';
+import Styles from './Component/Styles';
  
 function App() {
   return (
@@ -39,6 +41,10 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/dynamicroute/:Name' element={<DynamicRoute/>}/>
+    <Route path='/reactmemo' element={<Memo/>}/>
+    <Route path='/styles' element={<Styles/>}/>
+
+
 
 
 

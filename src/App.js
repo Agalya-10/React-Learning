@@ -18,6 +18,8 @@ import Contact from './Component/Contact';
 import DynamicRoute from './Component/DynamicRoute';
 import Memo from './Component/Memo';
 import Styles from './Component/Styles';
+import Memo1 from './Component/Memo1';
+import Memo2 from './Component/Memo2';
  
 function App() {
   return (
@@ -42,24 +44,9 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/dynamicroute/:Name' element={<DynamicRoute/>}/>
     <Route path='/reactmemo' element={<Memo/>}/>
+    <Route path='/memo1' element={<Memo1/>}/>
+    <Route path='/memo2' element={<Memo2/>}/>
     <Route path='/styles' element={<Styles/>}/>
-
-
-
-
-
-
-    
-
-
-
-   
-
-    
-
-
-
-
   </Routes>
   </BrowserRouter>
   </>

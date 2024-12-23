@@ -20,6 +20,8 @@ import Memo from './Component/Memo';
 import Styles from './Component/Styles';
 import Memo1 from './Component/Memo1';
 import Memo2 from './Component/Memo2';
+import UseForm from './Component/UseForm';
+
  
 function App() {
   return (
@@ -47,6 +49,8 @@ function App() {
     <Route path='/memo1' element={<Memo1/>}/>
     <Route path='/memo2' element={<Memo2/>}/>
     <Route path='/styles' element={<Styles/>}/>
+    <Route path='/useform' element={<UseForm/>}/>
+
   </Routes>
   </BrowserRouter>
   </>

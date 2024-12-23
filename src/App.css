@@ -48,3 +48,43 @@
 .external{
   color: blue;
 }
+.useform{
+  border: none;
+  width: 330px;
+  padding: 10px;
+  margin: 15vh auto;
+  border-radius: 5px;
+  background-color: rgb(6, 123, 144);
+ 
+}
+.form{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+}
+.heading{
+  text-align: center;
+}
+.box{
+  width: 310px;
+  padding: 9px;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+.submit{
+  text-align: center;
+}
+.button1{
+  display: inline-block;
+  padding: 7px;
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+.button1:hover{
+  background-color:rgb(6, 123, 144);
+  color: whitesmoke;
+}

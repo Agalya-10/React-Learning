@@ -21,6 +21,8 @@ import Styles from './Component/Styles';
 import Memo1 from './Component/Memo1';
 import Memo2 from './Component/Memo2';
 import UseForm from './Component/UseForm';
+import Errorbou from './Component/Errorbou';
+import Useeffect from './Component/Useeffect';
 
  
 function App() {
@@ -50,6 +52,10 @@ function App() {
     <Route path='/memo2' element={<Memo2/>}/>
     <Route path='/styles' element={<Styles/>}/>
     <Route path='/useform' element={<UseForm/>}/>
+    <Route path='/errorboundaries' element={<Errorbou/>}/>
+    <Route path='/useeffect' element={<Useeffect/>}/>
+
+
 
   </Routes>
   </BrowserRouter>

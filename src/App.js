@@ -23,6 +23,7 @@ import Memo2 from './Component/Memo2';
 import UseForm from './Component/UseForm';
 import Errorbou from './Component/Errorbou';
 import Useeffect from './Component/Useeffect';
+import FormTask from './Component/FormTask';
 
  
 function App() {
@@ -54,6 +55,8 @@ function App() {
     <Route path='/useform' element={<UseForm/>}/>
     <Route path='/errorboundaries' element={<Errorbou/>}/>
     <Route path='/useeffect' element={<Useeffect/>}/>
+    <Route path='/formtask' element={<FormTask/>}/>
+
 
 
 

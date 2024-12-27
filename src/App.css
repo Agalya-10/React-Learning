@@ -88,3 +88,13 @@
   background-color:rgb(6, 123, 144);
   color: whitesmoke;
 }
+
+.form1{
+  border: none;
+  width: 300px;
+  padding: 10px;
+  margin: 15vh auto;
+  border-radius: 5px;
+  background-color: rgb(116, 228, 247);
+ 
+}

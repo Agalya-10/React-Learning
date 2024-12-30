@@ -54,7 +54,7 @@
   padding: 10px;
   margin: 15vh auto;
   border-radius: 5px;
-  background-color: rgb(6, 123, 144);
+  background-color: rgb(122, 219, 243);
  
 }
 .form{
@@ -90,11 +90,109 @@
 }
 
 .form1{
+  font-family: 'Times New Roman', Times, serif;
   border: none;
-  width: 300px;
+  width: 330px;
   padding: 10px;
   margin: 15vh auto;
   border-radius: 5px;
-  background-color: rgb(116, 228, 247);
+  /* background-color: rgba(247, 248, 248, 0.833); */
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 0px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
  
+}
+.head1{
+  text-align: center;
+}
+.box1{
+  width: 280px;
+  padding: 11px;
+  border-radius: 8px;
+  margin-top: 7px;
+  margin-left: 9px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+.button2{
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 15px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+.button2:hover{
+  background-color: rgba(247, 248, 248, 0.833);
+  color: black;
+}
+.label{
+  margin-left: 10px;
+  font-size: 19px;
+  font-weight: 500;
+
+}
+.para1{
+  text-align: center;
+}
+.link{
+  text-decoration: none;
+}
+.password{
+  text-decoration: none;
+  padding-left: 12rem;
+  color: black;
+}
+.form2{
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  width: 620px;
+  padding: 10px;
+  margin: 5vh auto;
+  border-radius: 5px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 0px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  /* background-color: rgba(247, 248, 248, 0.833); */
+}
+.box2{
+  width: 250px;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: 7px;
+  /* margin-left: 5px; */
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+#cpassword{
+  margin-left: 47px;
+}
+.label1{
+  margin-left: 18px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.label2{
+  margin-left: 18px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.box3{
+  width: 565px;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: 7px;
+  margin-left: 18px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+.box4{
+  width: 584px;
+  padding: 7px;
+  border-radius: 3px;
+  margin-top: 7px;
+  margin-left: 18px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
 }

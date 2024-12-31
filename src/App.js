@@ -25,6 +25,8 @@ import Errorbou from './Component/Errorbou';
 import Useeffect from './Component/Useeffect';
 import FormTask from './Component/FormTask';
 import Registerform from './Component/Registerform';
+import Loginformdata from './Component/Loginformdata';
+import Registerformdata from './Component/Registerformdata';
 
  
 function App() {
@@ -58,6 +60,10 @@ function App() {
     <Route path='/useeffect' element={<Useeffect/>}/>
     <Route path='/formtask' element={<FormTask/>}/>
     <Route path='/registerform' element={<Registerform/>}/>
+    <Route path='/loginformdata' element={<Loginformdata/>}/>
+    <Route path='/Registerformdata' element={<Registerformdata/>}/>
+
+
 
 
 

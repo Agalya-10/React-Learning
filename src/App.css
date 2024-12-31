@@ -92,7 +92,7 @@
 .form1{
   font-family: 'Times New Roman', Times, serif;
   border: none;
-  width: 330px;
+  width: 370px;
   padding: 10px;
   margin: 15vh auto;
   border-radius: 5px;
@@ -102,23 +102,24 @@
 }
 .head1{
   text-align: center;
+  font-weight: bolder;
 }
 .box1{
-  width: 280px;
-  padding: 11px;
-  border-radius: 8px;
+  width: 320px;
+  padding: 9px;
+  border-radius: 5px;
   margin-top: 7px;
-  margin-left: 9px;
-  margin-bottom: 10px;
+  margin-left: 16px;
+  /* margin-bottom: 3px; */
   border: 1px solid gray;
-}
+  }
 .button2{
   display: inline-block;
   font-family: 'Times New Roman', Times, serif;
-  padding: 10px 15px;
+  padding: 8px 19px;
   font-size: 19px;
   font-weight: bold;
-  margin-top: 20px;
+  /* margin-top: 15px; */
   cursor: pointer;
   border-radius: 3px;
   border: none;
@@ -130,8 +131,9 @@
   color: black;
 }
 .label{
-  margin-left: 10px;
+  margin-left: 16px;
   font-size: 19px;
+  /* margin-top: 40px; */
   font-weight: 500;
 
 }
@@ -140,10 +142,15 @@
 }
 .link{
   text-decoration: none;
+  
+}
+.pass{
+  text-align: end;
 }
 .password{
   text-decoration: none;
-  padding-left: 12rem;
+  display: inline-block;
+  padding-right: 19px;  
   color: black;
 }
 .form2{
@@ -157,8 +164,8 @@
   /* background-color: rgba(247, 248, 248, 0.833); */
 }
 .box2{
-  width: 250px;
-  padding: 8px;
+  width: 265px;
+  padding: 3px;
   border-radius: 3px;
   margin-top: 7px;
   /* margin-left: 5px; */
@@ -166,7 +173,7 @@
   border: 1px solid gray;
 }
 #cpassword{
-  margin-left: 47px;
+  margin-left: 35px;
 }
 .label1{
   margin-left: 18px;
@@ -180,15 +187,15 @@
 }
 .box3{
   width: 565px;
-  padding: 8px;
+  padding: 3px;
   border-radius: 3px;
   margin-top: 7px;
-  margin-left: 18px;
+  /* margin-left: 2px; */
   border: 1px solid gray;
   margin-bottom: 10px;
 }
 .box4{
-  width: 584px;
+  width: 565px;
   padding: 7px;
   border-radius: 3px;
   margin-top: 7px;

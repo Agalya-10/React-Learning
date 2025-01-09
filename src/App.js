@@ -27,6 +27,11 @@ import FormTask from './Component/FormTask';
 import Registerform from './Component/Registerform';
 import Loginformdata from './Component/Loginformdata';
 import Registerformdata from './Component/Registerformdata';
+import Usecontext from './Component/Usecontext';
+import Useref from './Component/Useref';
+import Callback from './Component/Callback';
+
+
 
  
 function App() {
@@ -62,12 +67,13 @@ function App() {
     <Route path='/registerform' element={<Registerform/>}/>
     <Route path='/loginformdata' element={<Loginformdata/>}/>
     <Route path='/Registerformdata' element={<Registerformdata/>}/>
+    <Route path='/usecontext' element={<Usecontext/>}/>
+    <Route path='/useref' element={<Useref/>}/>
+    <Route path='/callback' element={<Callback/>}/>
 
 
 
-
-
-
+  
 
   </Routes>
   </BrowserRouter>

@@ -30,6 +30,9 @@ import Registerformdata from './Component/Registerformdata';
 import Usecontext from './Component/Usecontext';
 import Useref from './Component/Useref';
 import Callback from './Component/Callback';
+import Usememo from './Component/Usememo';
+import Usereducer from './Component/Usereducer';
+import Customhook from './Component/Customhook';
 
 
 
@@ -70,6 +73,12 @@ function App() {
     <Route path='/usecontext' element={<Usecontext/>}/>
     <Route path='/useref' element={<Useref/>}/>
     <Route path='/callback' element={<Callback/>}/>
+    <Route path='/usememo' element={<Usememo/>}/>
+    <Route path='/usereducer' element={<Usereducer/>}/>
+    <Route path='/customhook' element={<Customhook/>}/>
+
+
+
 
 
 

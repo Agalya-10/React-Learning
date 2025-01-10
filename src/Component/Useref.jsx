@@ -5,6 +5,8 @@ function Useref() {
 
     const handleFocus = () => {
         inputRef.current.focus(); 
+        inputRef.current.style.border = "2px solid red";
+        inputRef.current.style.backgroundColor = "yellow";
     };
 
     return (
